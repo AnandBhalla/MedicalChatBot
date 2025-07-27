@@ -11,3 +11,4 @@ langchain_experimental
 google-generativeai==0.8.5
 fastapi
 uvicorn
+langchain_google_genai
