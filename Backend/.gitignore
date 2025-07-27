@@ -1,0 +1,54 @@
+# === Python cache & compiled files ===
+__pycache__/
+*.py[cod]
+*.so
+
+# === Environment files ===
+.env
+.env.*
+
+# === Anaconda and virtualenv ===
+/venv/
+/env/
+/.venv/
+.DS_Store
+*.egg-info/
+*.egg
+.Python
+*.pyo
+*.pyd
+
+# === Logs and databases ===
+*.log
+*.sqlite3
+*.db
+
+# === OS files ===
+Thumbs.db
+.DS_Store
+
+# === VS Code ===
+.vscode/
+
+# === Jupyter / IPython ===
+.ipynb_checkpoints
+
+# === Frontend build files ===
+node_modules/
+dist/
+build/
+*.lock
+
+# === Coverage / Testing ===
+.coverage
+htmlcov/
+.cache/
+.tox/
+pytest_cache/
+
+# === LangChain / Transformers cache ===
+huggingface/
+~/.cache/
+
+# === Render deployment (if using build artifacts) ===
+render.yaml

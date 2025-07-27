@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Chat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h1>🩺 Doctor Chatbot</h1>
+            <p>Ask me about your health concerns</p>
+        </div>
+        
+        <div class="chat-messages" id="chatMessages">
+            <div class="message doctor">
+                <div class="message-avatar">Dr</div>
+                <div class="message-content">
+                    Hello! I'm your virtual doctor assistant. How can I help you today?
+                </div>
+            </div>
+        </div>
+        
+        <div class="chat-input-container">
+            <div class="input-group">
+                <input 
+                    type="text" 
+                    class="message-input" 
+                    id="messageInput" 
+                    placeholder="Type your message here..."
+                    maxlength="500"
+                >
+                <button class="audio-button" id="audioButton" title="Voice input (Non-functional)">
+                    🎤
+                </button>
+                <button class="send-button" id="sendButton" title="Send message">
+                    ➤
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
